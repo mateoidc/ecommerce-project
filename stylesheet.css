@@ -1,0 +1,337 @@
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2015/01/07/16/37/wood-591631_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Nav Bar */
+.logo {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 70px;
+}
+
+li, a, button {
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
+  font-family: fantasy;
+  font-weight: bold;
+  color: black;
+  
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-image:linear-gradient(#44c294,#8fc9d1, #44c294);
+  
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: olive;
+}
+
+#buttons {
+  padding: 9px 25px;
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+@media all and (max-width: 500px) {
+  #buttons {
+    background-color: gainsboro;
+    font-size: 10px;
+  }
+}
+
+#buttons:hover {
+  background-color: rgba(0,136,169,0.8);
+}
+
+
+  /* About Us  */
+
+
+/* About Us title */
+h1{
+  font-family: 'Staatliches', cursive;
+}
+
+p {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.box{
+  color: white;
+  font-size: 20px;
+}
+
+.container {
+  background-color: rgba(0,0,0,0.8);
+  /* background-image: linear-gradient(#388c64,#7e9c8d,#0a6638); */
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 6px;
+  color: #c7edc0;;
+
+}
+
+/* Featured Plants */
+h2{
+text-align: center;
+font-size: 30px;
+background-color: #e6f0ea;
+font-family: 'Staatliches', cursive;
+
+
+}
+
+.container2 {
+color: white;
+background-color: rgba(0,0,0,0.8);
+text-align: center;  
+}
+
+
+.img2 {
+width: 200px;
+height: 200px;
+border-radius: 100px;
+border-style: solid;
+border-color: #44c294;
+}
+
+.container2 {
+display:flex;
+align-items: flex-start;
+flex-wrap: wrap;
+}
+
+.box2{ 
+ margin: 10px auto;
+
+}
+
+.box3 {
+margin: 10px auto;
+}
+
+.box4 {
+margin: 10px auto;
+}
+
+.box5 {
+margin: 10px auto;
+}
+
+.button2 {
+  text-decoration: none;
+  font-family: impact; 
+  color: white;
+
+}
+
+.button2:hover {
+ opacity:0.9;
+ color: olive;
+}
+
+/* Testimonials Hero */
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://camillestyles.com/wp-content/uploads/2018/03/CamilleStyles_Austin171-2.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 180px;
+  margin: 10px auto;
+}
+
+
+.hero-text {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Staatliches', cursive;
+
+}
+
+@media all and (max-width:500px) {
+  .hero-text {
+    font-size: 20px;
+  }
+}
+
+/* reviews */
+.review-container1 {
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  text-align: center;  
+  font-size: 25px;
+  padding: 30px;
+}
+
+
+h5{
+    text-align: center;
+    font-size: 60px;
+    margin: 50px;
+    font-family: 'Staatliches', cursive;
+    color: #c7edc0;
+}
+
+h6 {
+    font-size: 20px;
+    color: white;
+}
+
+.review-box1{ 
+  margin: 10px auto;
+}
+
+.review-box2 {
+ margin: 10px auto;
+}
+
+.review-box3 {
+ margin: 10px auto;
+}
+
+.review-box4 {
+  margin: 10px auto;
+}
+
+.review-box5 {
+  margin: 10px auto;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-image: linear-gradient(#44c294,#8fc9d1, #44c294);
+    padding: 20px 0;
+}
+
+#logo2 {
+  width: 180px;
+  border-radius: 90px;
+  
+}
+
+.footer-container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+
+}
+
+.social-media {
+  margin: 20px 0;
+
+}
+
+.social-media a
+{
+color: black;
+font-size: 22px;
+text-decoration: none;
+margin: 6px;
+
+
+}
+
+.social-media a:hover {
+  color:olive;
+
+}
+
+.rights-text {
+  color: white;
+  font-size: 10px;
+}
+
+/* Form */
+
+.right-col p {
+font-size: 26px;
+}
+
+.border {
+width: 100px; 
+height: 4px;
+background: #fc5c6f;
+}
+
+.newsletter-form {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.txtb {
+flex: 1;
+padding: 18px 40px;
+font-size: 16px;
+color: #293043;
+background: #ddd;
+border: none;
+font-weight: 700;
+outline: none;
+border-radius: 30px;
+min-width: 260px;
+}
+
+.btn {
+flex: 1;
+padding: 18px 40px;
+font-size: 16px;
+color: black;
+background: #fc5c6f;
+border: none;
+font-weight: 700;
+outline: none;
+border-radius: 30px;
+min-width: 260px;
+cursor: pointer;
+transition: opacity .3s linear;
+}
+
+.btn:hover
+{
+color: olive;
+}
+
+label {
+  color:#44c294;
+}
